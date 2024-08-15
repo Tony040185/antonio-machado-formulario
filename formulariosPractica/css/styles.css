@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: rgb(0, 128, 255);
+    display: flex; /* Activar Flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Tomar toda la altura de la ventana */
+    position: relative; /* Establecer posicionamiento relativo en el body */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    width: 550px;
+    background-color: rgb(0, 255, 255);
+    position: absolute; /* Posicionamiento absoluto para el div */
+    top: 50%; /* Posicionar el div al 50% de la altura */
+    left: 50%; /* Posicionar el div al 50% del ancho */
+    transform: translate(-50%, -50%); /* Mover el div hacia arriba y hacia la izquierda un 50% de su propio ancho y alto */
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+form {
+    margin: 0; /* Para asegurarte de que no haya márgenes adicionales en el formulario */
+    padding: 25px;
+    
+}
+
+label, input {
+    
+    display: block; /* Asegúrate de que cada label y input ocupe toda la línea */
+    margin-bottom: 1px; /* Separación de 5px entre cada elemento */
+    margin-left: 5px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 90%; /* Ancho del 50% para los inputs */
+    height: 3ch; /* Altura del input */
+    font-size: 18px; /* Tamaño de fuente más grande */
+    font-weight: bold;
+    padding: 5px; /* Espacio interno para hacer el input más cómodo */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+
+input[type="submit"] {
+    width: 50%; /* Ancho del botón al menos un 70% más grande */
+    height: 50px; /* Altura del botón */
+    font-size: 20px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    background-color: #6e726e; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-top: 10px; /* Espacio superior para el botón de enviar */
+    
+}
+
