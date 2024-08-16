@@ -42,13 +42,12 @@ label, input {
 input[type="text"], input[type="email"] {
     width: 90%; /* Ancho del 50% para los inputs */
     height: 3ch; /* Altura del input */
-    font-size: 18px; /* Tamaño de fuente más grande */
+    font-size: 15px; /* Tamaño de fuente más grande */
     font-weight: bold;
     padding: 5px; /* Espacio interno para hacer el input más cómodo */
     border: 1px solid #ccc; /* Borde del input */
     border-radius: 4px; /* Bordes redondeados */
 }
-
 
 input[type="submit"] {
     width: 50%; /* Ancho del botón al menos un 70% más grande */
@@ -59,7 +58,7 @@ input[type="submit"] {
     color: white; /* Color del texto del botón */
     border: none; /* Sin borde */
     border-radius: 4px; /* Bordes redondeados */
-    margin-top: 10px; /* Espacio superior para el botón de enviar */
+    margin-top: 5px; /* Espacio superior para el botón de enviar */
     
 }
 
